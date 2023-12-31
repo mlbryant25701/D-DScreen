@@ -1,0 +1,31 @@
+#initiativeTracker {
+    /* Add your styling here */
+}
+
+#initiativeList li {
+    /* Style for each list item */
+}
+
+#initiativeList li.highlighted {
+    background-color:#0a0e3b; /* Highlighting the active item */
+}
+
+/* Additional styling as needed */
+.dead {
+    background-color:lightgrey;
+    color: grey;
+}
+
+.custom-list {
+    list-style: none; /* Remove the bullet points */
+    padding: 0; /* Remove the default padding */
+    background-color: #333; /* Dark grey background color */
+    color: white; /* White font color */
+  }
+  
+  .custom-list li {
+    padding: 2px; /* Add padding to the list items for spacing */
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border: 1px solid white;
+  }

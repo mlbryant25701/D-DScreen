@@ -1,0 +1,51 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-size:20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+.playerName {
+  font-weight: bold;
+  font-size:30px;
+}
+
+.playerClass {
+  font-style: italic;
+  font-size:20px;
+}
+
+.playerRace {
+  font-size:12px;
+}
+
+.background-image {
+  background-image: url('1920x1080-terrain-wa.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+table {
+  width: 100%;
+}
+
+  .screenlabel {
+    font-weight: bold;
+    background-color: #3b0a0f;
+    padding: 2px;
+    
+}
+
+.characterPortrait {
+    border: 2px solid white;
+  }
+
+
+.widget{
+    border: 2px solid black;
+    padding: 5px;
+background-color: rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,28 @@
+.up-down-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        font-size:8px;
+    }
+
+ .up-button, .down-button {
+    width: 10px;
+    height: 12px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: black;
+    }
+
+.up-button:hover, .down-button:hover {
+    background-color: #e6e6e6;
+    }
+
+.clockLabel {
+    font-size:30px;
+    font-weight: bolder;
+}
